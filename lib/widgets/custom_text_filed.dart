@@ -20,6 +20,7 @@ class CustomTextFormFild extends StatelessWidget {
         if (value == null || value.isEmpty) {
           return '$hintText is required.';
         }
+        return null;
       },
       obscureText: obscureText!,
       onChanged: onChanged,

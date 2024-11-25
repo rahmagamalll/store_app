@@ -4,8 +4,10 @@ import 'package:store_app/pages/categories_page.dart';
 import 'package:store_app/widgets/home_page_body.dart';
 
 class HomePage extends StatelessWidget {
-  @override
   static String id = 'HomePage';
+
+  const HomePage({super.key});
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
